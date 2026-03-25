@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guia de Investimentos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Guia de Investimentos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="formulario">
+            <input type="text" placeholder="Tipo de Investimento..." list="tipo_investimento">
+            <datalist id="tipo_investimento">
+                <option value="Renda Fixa">
+                <option value="Renda Variável">
+            </datalist>
+            <input type="text" placeholder="Investimentos..." list="investimentos">
+            <datalist id="investimentos">
+                <option value="CDB">
+                <option value="Tesouro Selic">
+                <option value="Pós-Fixado">
+                <option value="Pré-Fixado">
+                <option value="Híbrido">
+                <option value="Ações">
+                <option value="Fundos Imobiliários">
+                <option value="Criptomoedas">
+            </datalist>
+            <button>Pesquisar</button>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
