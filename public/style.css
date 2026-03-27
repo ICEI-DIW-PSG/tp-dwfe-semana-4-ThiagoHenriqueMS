@@ -3,13 +3,31 @@ font-family: Arial, Helvetica, sans-serif;
 margin: 0;
 padding: 0;
 }
-header {
-    background-color: blue;
+header h1{
+    position: relative;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    
+}
+h3{
+    font-style: italic;
+    margin: 20px;
+    color: blue;
+}
+h2{
+    color: green;
+    padding: 5px;
 }
 .menu {
     background-color: gold;
     padding: 30px;
     height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    
+    
     
 }
 .menu ul {
@@ -32,17 +50,47 @@ header {
     background-color: rgb(45, 43, 172);
 }
 .formulario {
-
+    background-color: azure;
+    position:absolute;
+    top:230px;
+    left: 450px;
 }
 .Renda_Fixa {
-background-color: green;
+position: absolute;
+top:330px;
 }
 .Renda_Variável {
-background-color: yellow;
-}
+position: absolute;
+top:1450px;
+} 
 .considerações{
-    background-color: orange;
+    position: absolute;
+    top: 2180px;
+}
+.destaque {
+    font-weight: bold;
+}
+.Renda_Variável, .Renda_Fixa, .considerações {
+padding: 20px;
+background-color: #F8F8F8;
+}
+main p{
+margin: 20px;
+text-align: justify;
+line-height: 1.5;
+}
+img{
+    display: block;
+    margin: 0 auto;
 }
 footer {
-background-color: deeppink;
+position: absolute;
+top: 2450px;
+width: 100%;
+text-align: center;
+background-color: rgb(44, 44, 44);
+color: white;
+}
+footer p{
+    margin: 10px;
 }

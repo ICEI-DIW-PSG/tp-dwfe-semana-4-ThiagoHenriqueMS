@@ -9,19 +9,19 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Thiago Henrique Marques Soares
+- Matricula: 926400
+- Proposta de projeto escolhida: Investimentos
+- Breve descrição sobre seu projeto: A página na web criada tem como objetivo mostrar e explicar um conteúdo educacional a respeito de investimentos, mostrando os principais e mais básicos tipos existentes no mercado financeiro.
 
 
 ## Print do(s) wireframe(s) criado
 > Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar.
 
 
-<<  COLOQUE A IMAGEM AQUI >>
+![esboço do site](public/Esboço.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![home-page criado](public/homepage.png)
