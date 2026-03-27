@@ -11,15 +11,17 @@
 <body>
     <header class="cabeçalho">
         <h1>Guia Básico de Investimentos</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="patrocinio.html">Patrocínio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav class="menu">
-        <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Contato</li>
-        </ul>
-    </nav>
-    <main>
+
+    <main class="corpo_principal">
         <div class="formulario">
             <input type="text" placeholder="Tipo de Investimento..." list="tipo_investimento">
             <datalist id="tipo_investimento">
@@ -83,6 +85,7 @@
                 <p>Exemplo: Tesouro IPCA + 6% ano. (Sendo IPCA o principal índice de inflação no Brasil, calculado
                     mensalmente pelo IBGE)</p>
             </article>
+            <img src="https://picsum.photos/id/8/300" alt="imagem1">
 
         </section>
         <section class="Renda_Variável">
@@ -105,11 +108,16 @@
                     possível auferir lucro com o ganho de capital e com rendimentos, que são as receitas de aluguéis ou
                     juros gerados distruibuídos, na maioria das vezes, mensalmente. Também são negociados a partir da
                     bolsa de valores. </p>
+                <img src="https://picsum.photos/id/2/300" alt="">
 
             </article>
 
 
 
+
+
+        </section>
+        <div class="considerações">
             <h2>Considerações finais</h2>
             <p>Vale ressaltar que existem outros produtos de investimento no mercado, estes apresentados, são apenas
                 alguns. Também temos que ressaltar que cada um desses investimentos apresentam <b>RISCOS</b>. Sendo
@@ -120,14 +128,12 @@
                 possui
                 diferentes incidências de imposto de renda.
             </p>
-
-        </section>
-
+        </div>
 
 
 
     </main>
-    <footer>
+    <footer class="rodape">
         Autor: Thiago Henrique Marques Soares
         <p>Todos os direitos reservados</p>
 
